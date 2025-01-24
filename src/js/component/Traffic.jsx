@@ -8,7 +8,7 @@ export const Trafficligth = () => {
         <div className="container d-table traffic-light w-auto rounded-4 left">
            <div onClickCapture={() => setSelectedColor("red")} className={"light red" + (selectedColor === "red" ? "glow" : "")}></div>
            <div onClickCapture={() => setSelectedColor("yellow")} className={"light yellow" + (selectedColor == "yellow" ? "glow" : "")}></div>
-           <div onClickCapture={() => setSelectedColor("green")} className={"light green glow" + (selectedColor === "green" ? "glow" : "")}></div>
+           <div onClickCapture={() => setSelectedColor("green")} className={"light green" + (selectedColor === "green" ? "glow" : "")}></div>
        </div>
          <div className= "pole"></div>
         </div>
